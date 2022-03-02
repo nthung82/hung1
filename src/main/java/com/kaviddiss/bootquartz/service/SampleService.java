@@ -29,10 +29,10 @@ public class SampleService {
        */
         try {
          //   File file = ResourceUtils.getFile("classpath:application.properties");
-            File file1 = ResourceUtils.getFile("dateutils.jar");
+        /*    File file1 = ResourceUtils.getFile("dateutils.jar");
             Resource resource = resourceLoader.getResource("classpath:a.properties");
             Resource r = new ClassPathResource("classpath:a.txt");
-            System.out.println("aaaaaa" + r.exists()+resource.exists()+file1.exists());
+            System.out.println("aaaaaa" + r.exists()+resource.exists()+file1.exists());*/
         }catch (Exception e){e.printStackTrace();}
         String classpath = System.getProperty("java.class.path");
         String[] paths = classpath.split(System.getProperty("path.separator"));
